@@ -29,7 +29,7 @@ toolset; the project links below show the implementation scope of each example.
 
 | Project | Engineering focus |
 | --- | --- |
-| [Go web app](https://github.com/AhmedKarray005/go-web-app) | Docker packaging, GitHub Actions image publishing, Helm and Kubernetes; tutorial-based, with a [deployment correction under review](https://github.com/AhmedKarray005/go-web-app/pull/1) |
+| [Go web app](https://github.com/AhmedKarray005/go-web-app) | Docker packaging, GitHub Actions, Helm and Kubernetes; tutorial-based, with image selection and container routes verified in CI |
 | [Containerized API stack](https://github.com/AhmedKarray005/secure-microservices-swarm) | Flask/PostgreSQL, NGINX, Compose/Swarm, internal networking, secret files and log collection |
 | [Security Log Sentinel](https://github.com/AhmedKarray005/sec-log-sentinel) | Rust CLI for authentication-log summaries and heuristic console alerts |
 | [DonorConnect](https://github.com/AhmedKarray005/donorconnect) | React and Express/MongoDB donation application; supporting project with tests and hardening still in progress |
