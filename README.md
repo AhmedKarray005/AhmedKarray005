@@ -17,6 +17,8 @@ platform used by two hotels, using React, Angular and Node.js.
 - **Delivery and infrastructure:** Docker, Kubernetes/K3s, Helm, Ansible,
   CI/CD, GitOps, Argo CD.
 - **Security in delivery:** Trivy, OpenBao and Kyverno.
+- **Network security and detection:** packet capture analysis (Wireshark, Scapy), flow
+  analysis, rule-based detection mapped to MITRE ATT&CK.
 - **Backend and software:** Node.js, FastAPI, Python, Java, Go, REST APIs.
 - **Data and operations:** PostgreSQL, MongoDB, Prometheus, Grafana,
   Loki, Tempo and OpenTelemetry.
@@ -29,9 +31,10 @@ toolset; the project links below show the implementation scope of each example.
 
 | Project | Engineering focus |
 | --- | --- |
+| [**NetSentinel**](https://github.com/AhmedKarray005/netsentinel) | Network traffic analysis and intrusion detection: PCAP parsing, flow reconstruction, 3 detection rules mapped to MITRE ATT&CK, FastAPI + React dashboard, hardened Docker Compose; validated on 14 labelled scenarios and benchmarked, CI with Trivy image scans |
 | [Go web app](https://github.com/AhmedKarray005/go-web-app) | Docker packaging, GitHub Actions, Helm and Kubernetes; tutorial-based, with image selection and container routes verified in CI |
 | [Containerized API stack](https://github.com/AhmedKarray005/secure-microservices-swarm) | Flask/PostgreSQL, NGINX, Compose/Swarm, internal networking, secret files and log collection |
-| [Security Log Sentinel](https://github.com/AhmedKarray005/sec-log-sentinel) | Rust CLI for authentication-log summaries and heuristic console alerts |
+| [Security Log Sentinel](https://github.com/AhmedKarray005/sec-log-sentinel) | Rust CLI for authentication-log summaries and heuristic console alerts; unit tests and clippy in CI |
 | [DonorConnect](https://github.com/AhmedKarray005/donorconnect) | React and Express/MongoDB donation application; auth/ownership regression tests and MongoDB integration checks in CI |
 
 These are learning and portfolio projects. Their guides and linked reviews
