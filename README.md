@@ -37,6 +37,11 @@ toolset; the project links below show the implementation scope of each example.
 | [Security Log Sentinel](https://github.com/AhmedKarray005/sec-log-sentinel) | Rust CLI for authentication-log summaries and heuristic console alerts; unit tests and clippy in CI |
 | [DonorConnect](https://github.com/AhmedKarray005/donorconnect) | React and Express/MongoDB donation application; auth/ownership regression tests and MongoDB integration checks in CI |
 
+### Open-source contribution
+
+- [TheCyberHub #704](https://github.com/th3cyb3rhub/TheCyberHub/pull/704) (merged, March 2024):
+  restyled the homepage contact form of a community cybersecurity learning platform.
+
 These are learning and portfolio projects. Their guides and linked reviews
 describe implemented features, verification results and limitations.
 
